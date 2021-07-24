@@ -17,6 +17,7 @@ operation_simplicity
 ├── OperationSimplicity.md  -> automatically generated from templates folder
 ├── README.md               -> general instructions
 ├── templates               -> templates folder
+│   └── {{ project_name }}.md
 └── variables.yaml          -> variables file
 ```
 
@@ -30,6 +31,8 @@ operation_subfolders
 ├── _posts            -> atomatically generated from templates folder
 ├── projects          -> automatically generated from templates folder
 ├── templates         -> templates folder
+│   ├── _posts
+│   └── projects
 └── variables.ini     -> variables file
 ```
 

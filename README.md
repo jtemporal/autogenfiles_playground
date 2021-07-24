@@ -32,3 +32,19 @@ operation_subfolders
 ├── templates         -> templates folder
 └── variables.ini     -> variables file
 ```
+
+#### Operation Rendered
+
+The most complex case so far: `templates/` has a subfolder structure that needs to be followed, the output goes into an output directory called `rendered/` that follows the subfolder structure from `templates/`, and variable file has a non-default naming.
+
+```console
+operation_rendered
+├── REAME.md       -> general instructions
+├── rendered       -> automatically generated from templates folder
+│   ├── _posts
+│   └── projects
+├── templates      -> templates folder
+│   ├── _posts
+│   └── projects
+└── variables.ini  -> variables file
+```
